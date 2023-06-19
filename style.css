@@ -18,6 +18,7 @@ body {
 .class1 {
     background-color: rgb(18, 58, 18);
     height: 100px;
+    margin-top: -25px;
 }
 .flex1 .class2 {
      
@@ -107,5 +108,70 @@ hr {
 .flex4 > div {
     margin-left: 300px;
     
+}
+@media screen and (max-width: 992px) {
+    .flex1 > div {
+        margin: 30px; 
+      }
+      .flex1 {
+        margin-top: -30px;
+        width: 100%;;
+        
+      }
+      .flex1 .class2 {
+        height: 100px;
+        width: 199px;
+        font-size: large; 
+    }
+    .flex4 > div {
+        margin-left: 150px;
+        justify-content: center;
+    }
+    .class3 {
+        margin-top: 130px;
+        
+    }
+    #image {
+        height: 700px;   
+    }
+}
+@media screen and (max-width: 600px) {
+  .flex1 > div {
+    margin: 5px; 
+  }
+  .flex1 {
+    margin-right: 0px;
+    margin-top: -30px;
+    width: 100%;
+    
+  }
+  .flex1 .class2 {
+    height: 100px;
+    width: 199px;
+    margin-right: 0px;
+    font-size: large; 
+}
+#image {
+    height: 600px;   
+}
+.class3 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+.class4 {
+    font-size: x-large;
+}
+.class5 {
+    font-size: 50px;
+  margin-top: 0px;
+}
+.class6 {
+    font-size: large;
+}
+.flex2 > div > a {
+    margin: 15px;
+  }
+  .flex4 > div {
+    margin-left: 30px;
 }
 }
