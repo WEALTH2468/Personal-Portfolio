@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(55, 50, 50);
+    text-align: center;
+    
+}
+.flex1 {
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin-right: 250px;
+    position: relative;
+    
+    
+}
+.class1 {
+    background-color: rgb(18, 58, 18);
+    height: 100px;
+}
+.flex1 .class2 {
+     
+    color: rgb(18, 58, 18); ;
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    margin-right: 200px;
+    font-weight:bolder;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+    
+}
+.flex1 div {
+    margin: 40px;
+}
+.class3 {
+    font-size: 80px;
+    margin-top: 150px;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+}
+.class4 {
+    font-size: xx-large;
+    font-style: italic;
+    color:rgb(19, 125, 19);
+}
+#image {
+    background-image: url(1896255-text-font-screenshot-code-html-css-html-css_2.jpg
+    ) ;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+    
+    
+    
+}
+.class5 {
+    color: white;
+    font-size: 70px;
+    font-family: serif;
+    margin-top: 60px;
+}
+.class6 {
+    color: rgb(208, 200, 200);
+    font-style: italic;
+    font-size: x-large;
+}
+.flex2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    
+}
+    
+  .flex2 > div > a {
+    color: white;
+    margin: 40px;
+  }
+  .flex3 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }
+  .flex3 > div > a {
+    color: white;
+    margin: 40px;
+  }
+.flex4 {
+    display: flex;
+color:rgb(208, 200, 200); ;
+justify-content: flex-start;
+
+}
+hr {
+    height: 7px;
+    background-color: green;
+}
+.flex4 > div {
+    margin-left: 300px;
+    
+}
+}
