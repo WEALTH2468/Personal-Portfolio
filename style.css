@@ -155,8 +155,8 @@ hr {
     height: 600px;   
 }
 .class3 {
-    font-size: 50px;
-    margin-top: 100px;
+    font-size: 40px;
+    margin-top: 150px;
 }
 .class4 {
     font-size: x-large;
@@ -169,9 +169,13 @@ hr {
     font-size: large;
 }
 .flex2 > div > a {
-    margin: 15px;
+    margin: 10px;
   }
+  .flex3 > div > a {
+    margin: 10px;
+  }
+
   .flex4 > div {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 }
